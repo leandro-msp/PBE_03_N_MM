@@ -6,9 +6,20 @@
     <title>Programação Back-End - PHP</title>
 </head>
 <body>
-    <h1>Testando php</h1>
+    <h1>Estudando PHP- 28/08/25</h1>
     <?php
-    echo "Comando pelo php novo";
+    echo "Páginas do Material";
     ?>
+    <br>
+    <a href="pg04_01.php">PG04_01</a><br>
+    <a href="pg04_02.php">PG04_02</a><br>
+    <a href="aula05_01.php">AULA05_01</a><br>
+    <a href="aula05_02.php">AULA05_02</a><br>
+    <a href="ldc01_01.php">LICAODECASA01_01 - Tipos de Dados Concatenação</a><br>
+    <a href="ldc01_02.php">LICAODECASA01_02 - Manipulação de Dados, Constantes</a><br>
+    <a href="aula06_01.php">AULA6_01 - CRIAÇÃO DE FORMULÁRIO</a><br>
+    <a href="ldc02_form01_01.php">LIÇAO DE CASA - FORM </a><br>
+    <a href="aula07_01.php">OPERADORES</a><br>
+    
 </body>
 </html>
