@@ -7,10 +7,10 @@
 </head>
 <body>
     <h1>Estudando PHP- 28/08/25</h1>
+    <hr>
     <?php
-    echo "Páginas do Material";
+    echo "<h2>Páginas do Material</h2>";
     ?>
-    <br>
     <a href="pg04_01.php">PG04_01</a><br>
     <a href="pg04_02.php">PG04_02</a><br>
     <a href="aula05_01.php">AULA05_01</a><br>
@@ -20,6 +20,8 @@
     <a href="aula06_01.php">AULA6_01 - CRIAÇÃO DE FORMULÁRIO</a><br>
     <a href="ldc02_form01_01.php">LIÇAO DE CASA - FORM </a><br>
     <a href="aula07_01.php">OPERADORES</a><br>
+    <a href="aula07_02.php">OPERADORES2</a><br>
+    <a href="cafe01_01.php">PREPARA SEU CAFÉ</a><br>
     
 </body>
 </html>
