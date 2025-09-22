@@ -6,7 +6,7 @@
     <title>Aula05_02</title>
 </head>
 <body>
-    <h1>Aula05_02 - 04/09/25 </h1>
+    <h1>Aula05_02 - 04/09/25</h1>
     <?php
     $cep="06355620";
     echo "CEP: $cep<br>";
