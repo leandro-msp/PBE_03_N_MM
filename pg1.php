@@ -9,7 +9,7 @@
      <h1> Programação Back End </h1>
     <?php
     echo "<h2>Aluno: Leandro Marc <br>";
-    echo "Professor: Hebert </h2> <br>";
+    echo "Professor: Hebert </h2><br>";
     echo "First lesson using the gitHub";
     
     ?>

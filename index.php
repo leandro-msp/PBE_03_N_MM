@@ -21,7 +21,6 @@
     <a href="ldc02_form01_01.php">LIÇAO DE CASA - FORM </a><br>
     <a href="aula07_01.php">OPERADORES</a><br>
     <a href="aula07_02.php">OPERADORES2</a><br>
-    <a href="cafe01_01.php">PREPARA SEU CAFÉ</a><br>
     
 </body>
 </html>
