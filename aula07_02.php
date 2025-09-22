@@ -18,7 +18,7 @@
     $c = ($a<=$b); /* $c = a comparação entre $a e $b , no caso $c é igual a TRUE, 
     pois $a(50) é menor que $b(120), sendo assim $c=1 */
 
-    $d = !($a<=$b);
+    $d = !($a<=$b); // FALSE 
     
     /* -- a operação " ! not " ela verifica se uma condição é verdadeira ou falsa, e inverte.
      -- por exemplo: um futuro condutor não pode ser menor de idade para tirar habilitação
@@ -53,7 +53,7 @@
 
     ?>
     <h3> Operador Ou - Or - ||</h3>
-    <!-- o Operador Ou - Or - || ele necessita que apenas uma condição seja verdadeira entre para que seja Verdadeira, TRUE+TRUE=TRUE, TRUE+FALSE=TRUE-->
+    <!-- o Operador Ou - Or - || ele necessita que apenas uma condição seja verdadeira entre para que seja Verdadeira, TRUE+TRUE=TRUE, TRUE+FALSE=TRUE, FALSE+TRUE=TRUE-->
 
     <?php
     $a=50;
@@ -73,8 +73,9 @@
     $a=50;
     $b=120;
     $c=200;
-    $d=(($a<=$b) xor ($c<=$a)); //TRUE pois $a é menor ou igual a $b , mas $c não menor ou igual a $a, retornou apenas uma alternativa Veridadeira
-    $e=(($a>=$b) xor ($a>=$c)); // FALSE, pois ambas alternativas são falsas
+    $d=(($a<=$b) xor ($c<=$a)); //TRUE pois $a é menor ou igual a $b , mas $c não menor ou igual a $a, retornou apenas uma alternativa Verdadeira
+    $e=(($a>=$b) xor ($a>=$c)); // FALSE, pois ambas alternativas são falsas.
+    // ela também exige que uma alternativa seja escolhida, não aceita nulo.
     var_dump($d);
     echo "<br>";
     var_dump($e);
