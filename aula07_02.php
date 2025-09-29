@@ -20,7 +20,7 @@
 
     $d = !($a<=$b); // FALSE 
     
-    /* -- a operação " ! not " ela verifica se uma condição é verdadeira ou falsa, e inverte.
+    /* -- a operação " ! not " ela verifica se uma condição é verdadeira ou falsa, e inverte o resultado da condição.
      -- por exemplo: um futuro condutor não pode ser menor de idade para tirar habilitação
      Sendo ele de menor, ele atendeu a condição, ou seja TRUE, e então não será permitido,
      sendo assim a validação dele para iniciar o Processo de habilitação será negado, ou seja FALSE
