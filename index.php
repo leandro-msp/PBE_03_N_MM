@@ -21,6 +21,8 @@
     <a href="ldc02_form01_01.php">LIÇAO DE CASA - FORM </a><br>
     <a href="aula07_01.php">OPERADORES</a><br>
     <a href="aula07_02.php">OPERADORES2</a><br>
+    <a href="aula08_01.php">EXPLICAÇAO OPERADORES</a><br>
+    <a href="ldc_impPar.php">LIÇAO DE CASA - ÍMPAR OU PAR</a><br>
     
 </body>
 </html>
