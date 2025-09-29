@@ -15,7 +15,7 @@
     echo "<br>Subtração:".($a - $b); // 5
     echo "<br>Multiplicação:".($a * $b); // 50
     echo "<br>Divisão:".($a / $b); //2
-    echo "<br>Módulo:".($a % $b); // 0
+    echo "<br>Módulo/resto:".($a % $b); // 0
     echo "<br>Exponenciação:".($a ** $b); // 100k
     ?> 
     <hr>
