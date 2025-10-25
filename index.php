@@ -1,28 +1,30 @@
-<!DOCTYPE html>
-<html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Programação Back-End - PHP</title>
-</head>
-<body>
-    <h1>Estudando PHP- 28/08/25</h1>
-    <hr>
     <?php
-    echo "<h2>Páginas do Material</h2>";
+        require_once 'config.php';
+        require_once 'header.php'; 
     ?>
-    <a href="pg04_01.php">PG04_01</a><br>
-    <a href="pg04_02.php">PG04_02</a><br>
-    <a href="aula05_01.php">AULA05_01</a><br>
-    <a href="aula05_02.php">AULA05_02</a><br>
-    <a href="ldc01_01.php">LICAODECASA01_01 - Tipos de Dados Concatenação</a><br>
-    <a href="ldc01_02.php">LICAODECASA01_02 - Manipulação de Dados, Constantes</a><br>
-    <a href="aula06_01.php">AULA6_01 - CRIAÇÃO DE FORMULÁRIO</a><br>
-    <a href="ldc02_form01_01.php">LIÇAO DE CASA - FORM </a><br>
-    <a href="aula07_01.php">OPERADORES</a><br>
-    <a href="aula07_02.php">OPERADORES2</a><br>
-    <a href="aula08_01.php">EXPLICAÇAO OPERADORES</a><br>
-    <a href="ldc_impPar.php">LIÇAO DE CASA - ÍMPAR OU PAR</a><br>
+
+    <h1>Banco de Dados - PHP PDO (CRUD)</h1>
+    <p>Utilize o menu acima para navegar nas operações.</p>
+
+    <h2>Ações de Configuração e Inicialização</h2>
+    <p>Execute estes scripts para preparar o ambiente:</p>
+    <ul>
+    <li><a href='cria_tabela_sqlite.php' target='_blank'>Criar Tabela - SQLite</a></li>
+    <li><a href='cria_tabela_mysql.php' target='_blank'>Criar Tabela - MySQL</a></li>
+    </ul>
+
+    <h2>Status Atual da Conexão</h2>
+    <?php 
+    try {
+    // Tenta conectar para mostrar o status
+    require_once 'conecta.php';
+    echo "<p style='color: green;'>Conexão bem-sucedida! Banco de Dados: **" . strtoupper(DB_TYPE) . "**</p>";
+    } catch (Exception $e) {
+    echo "<p style='color: red;'>Falha na Conexão: " . htmlspecialchars($e->getMessage()) . "</p>";
+    }
+    ?>
+
+    <?php require_once 'footer.php'; ?>
     
 </body>
 </html>
