@@ -49,7 +49,7 @@
     ⠂ Opradores de Comparação
     ⠂ Operadores Lógicos
 
-# Aula 8 - Correação e Expliação dos Operadores ( aula08_01.php)
+# Aula 8 - Correção e Explicação dos Operadores ( aula08_01.php)
     ⠂ Relacionais (comparação)
     ⠂ Lógicos
 
@@ -58,11 +58,17 @@
     ⠂ Operador ternário
     ⠂ Switch
 
+# INTREGRAÇAO COM BANCO DE DADOS (IMPLANTAÇA DOS ARQUIVOS)
+    ⠂config, conecta, index, header,footer,insere,cadastro, seleciona,atualiza,cria_tabela_sqlite.
+
 # Aula 10 - Estrutura de Looping
     ⠂ While
     ⠂ do While
     ⠂ for
     ⠂ foreach
+
+
+
     
 
 
