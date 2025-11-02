@@ -6,7 +6,7 @@
     <title>Operadores</title>
 </head>
 <body>
-    <h1>Aula07_91 - 18/09/25</h1>
+    <h1>Aula07_01 - 18/09/25</h1>
     <h2>Aritiméticos </h2>
     <?php
     $a=10;
